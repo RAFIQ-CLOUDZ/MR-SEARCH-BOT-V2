@@ -25,11 +25,11 @@ User = Client(
 
 @Bot.on_message(filters.private & filters.command("start"))
 async def start_handler(_, event: Message):
-	await event.reply_photo("https://telegra.ph/file/165941ae764a56d6d9c89.jpg",
+	await event.reply_photo("https://telegra.ph/file/d28f5125bd901ad99da19.jpg",
                                 caption=Config.START_MSG.format(event.from_user.mention),
                                 reply_markup=InlineKeyboardMarkup([
-                                    [InlineKeyboardButton("Our Channel", url="https://t.me/sources_cods"),
-                                     InlineKeyboardButton("Creator", url="https://t.me/Am_robots")],
+                                    [InlineKeyboardButton("Our Channel", url="https://t.me/MROTTTamilOffl"),
+                                     InlineKeyboardButton("Creator", url="https://t.me/MR_X_MIRROR")],
                                     [InlineKeyboardButton("Help", callback_data="Help_msg"),
                                      InlineKeyboardButton("About", callback_data="About_msg")]]))
 
@@ -38,8 +38,8 @@ async def help_handler(_, event: Message):
 
     await event.reply_text(Config.ABOUT_HELP_TEXT.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("Our Channel", url="https://t.me/MOVIES_ZILAA"),
-             InlineKeyboardButton("Our Group", url="https://t.me/Official_Movies_Group"), 
+            [InlineKeyboardButton("Our Channel", url="https://t.me/MROTTTamilOffl"),
+             InlineKeyboardButton("Our Group", url="https://t.me/MR_OTT_REQUEST"), 
              InlineKeyboardButton("About", callback_data="About_msg")]
         ])
     )
@@ -77,11 +77,11 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("Our Channel", url="https://t.me/MOVIES_ZILAA"),
-						InlineKeyboardButton("Join", url="https://t.me/Official_Movies_Group")
+						InlineKeyboardButton("Our Channel", url="https://t.me/MROTTTamilOffl"),
+						InlineKeyboardButton("Join", url="https://t.me/MR_OTT_REQUEST")
 					],
 					[
-						InlineKeyboardButton("Creator", url="https://t.me/Am_RoBots"),
+						InlineKeyboardButton("Creator", url="https://t.me/MR_X_MIRROR"),
 						InlineKeyboardButton("Home", callback_data="gohome")
 					]
 				]
@@ -96,10 +96,10 @@ async def button(bot, cmd: CallbackQuery):
 				[
 					[
 						InlineKeyboardButton("About", callback_data="About_msg"),
-						InlineKeyboardButton("Our Channel", url="https://t.me/sources_cods")
+						InlineKeyboardButton("Our Channel", url="https://t.me/MROTTTamilOffl")
 					], 
                                         [
-						InlineKeyboardButton("Owner", url="https://t.me/Am_RoBots"),
+						InlineKeyboardButton("Owner", url="https://t.me/MR_X_MIRROE"),
 						InlineKeyboardButton("Home", callback_data="gohome")
 					]
 				]
@@ -117,8 +117,8 @@ async def button(bot, cmd: CallbackQuery):
 						InlineKeyboardButton("About", callback_data="About_msg")
 					],
 					[
-						InlineKeyboardButton("Support", url="https://t.me/Am_RoBots"),
-						InlineKeyboardButton("Channel", url="https://t.me/sources_cods")
+						InlineKeyboardButton("Support", url="https://t.me/MR_X_MIRROR"),
+						InlineKeyboardButton("Channel", url="https://t.me/MROTTTamilOffl")
 					]
 				]
 			),
