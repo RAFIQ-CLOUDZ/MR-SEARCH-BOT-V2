@@ -19,7 +19,7 @@ Very Soon We will Update it With New Features.
 <details><summary><b>Deploy to Heroku</b></summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/AM-ROBOTS/Mdisk-Search-Bot-V2">
+<a href="https://heroku.com/deploy?template=https://github.com/RAFIQ-CLOUDZ/MR-SEARCH-BOT-V2">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
